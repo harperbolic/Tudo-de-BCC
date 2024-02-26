@@ -2,7 +2,7 @@
 
 echo "começou"
 
-declare -i maxNumber=1
+declare -i maxNumber=50
 declare -i fileNumber=0
 
 for ((; maxNumber >= fileNumber ; fileNumber++)); do
