@@ -285,12 +285,37 @@ void metodo07 ( void )
   */
 void metodo08 ( void )
 {
+// definir dados
+  int area = 0;
+  int lado1 = 0, lado2 = 0;
 // identificar
    printf ( "\n%s\n", "Metodo08" );
+// ações
+   // ler primeiro dado
+   lado1 = readint("Qual o lado 1?");
+
+   // testar o primeiro dado
+   if(! (lado1 > 0))
+     {
+       // mostrar erro
+       printf("\n%s\n", "ERRO: Primeiro dado invalido.");
+     }
+   else
+     {
+       // ler o segundo dado
+       lado2 = readint("Qual o lado 2?");
+       if(! (lado2 > 0))
+	 {
+	   printf("\n%s\n", "ERRO: Segundo dado inválido.");
+	 }
+       // calcular a área
+       area = lado1 * lado2;
+     }
+   // mostrar a área
+   printf("\n%s%d%s\n", "area = ", area, " [u.a.]");
 // encerrar
    printf ( "\n%s\n", "Apertar ENTER para continuar." );
    getchar( );
-
 } // fim metodo08 ( )
 
 /**
@@ -298,8 +323,34 @@ void metodo08 ( void )
   */
 void metodo09 ( void )
 {
+  // definir dados
+  int area = 0;
+  int lado1 = 0, lado2 = 0;
 // identificar
    printf ( "\n%s\n", "Metodo09" );
+// ações
+   // ler primeiro dado
+   lado1 = readint("Qual o lado 1?");
+
+   // testar o primeiro dado
+   if(! (lado1 > 0))
+     {
+       // mostrar erro
+       printf("\n%s\n", "ERRO: Primeiro dado invalido.");
+     }
+   else
+     {
+       // ler o segundo dado
+       lado2 = readint("Qual o lado 2?");
+       if(! (lado2 > 0))
+	 {
+	   printf("\n%s\n", "ERRO: Segundo dado inválido.");
+	 }
+       // calcular a área
+       area = lado1 * lado2;
+     }
+   // mostrar a área
+   printf("\n%s%d%s\n", "area = ", area, " [u.a.]");
 // encerrar
    printf ( "\n%s\n", "Apertar ENTER para continuar." );
    getchar( );
@@ -311,14 +362,66 @@ void metodo09 ( void )
   */
 void metodo10 ( void )
 {
+// definir dados
+  int area = 0;
+  int lado1 = 0, lado2 = 0;
 // identificar
+   printf ( "\n%s\n", "Metodo10" );
+// ações
+   // ler dados
+   lado1 = readint("Qual o lado 1?");
+   lado2 = readint("Qual o lado 2?");
+   // testar dados
+   if(lado1 > 0 && lado2 > 0 && lado1 != lado2)
+     {
+       // calcular a área
+       area = lado1 * lado2;
+     }
+   else
+     {
+       // mostrar erro
+       printf("\n%s\n", "ERRO: Dado(s) invalido(s).");
+     }
+   // mostrar a área
+   printf("\n%s%d%s\n", "area = ", area, " [u.a.]");
+// encerrar
+   printf ( "\n%s\n", "Apertar ENTER para continuar." );
+   getchar( );// identificar
    printf ( "\n%s\n", "Metodo10" );
 // encerrar
    printf ( "\n%s\n", "Apertar ENTER para continuar." );
    getchar( );
-
 } // fim metodo10 ( )
 
+
+/**
+  * Metodo11.
+  */
+
+void metodo11 ( void )
+{
+
+} // fim metodo11 ( )
+
+
+/**
+  * Metodo12.
+  */
+
+void metodo12 ( void )
+{
+
+} // fim metodo12 ( )
+
+
+/**
+  * Metodo13.
+  */
+
+void metodo13 ( void )
+{
+
+} // fim metodo13 ( )
 
 // -------------------------- definicao do metodo principal
 
@@ -375,6 +478,12 @@ int main ( void )
             break;
          case 10: metodo10 ( ); 
             break;
+         case 11: metodo11();
+	    break;
+         case 12: metodo12();
+	    break;
+         case 13: metodo13();
+	    break;
          default:
             printf ( "\n%s\n\n", "ERRO: Opcao invalida." );
             break;
