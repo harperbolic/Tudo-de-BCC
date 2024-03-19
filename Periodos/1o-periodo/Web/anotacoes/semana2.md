@@ -128,3 +128,87 @@ Primeira parte do arquivo HTML, representada pela tag <head>, que inclui informa
 	<p> parágrafo </p>
       </body>
 </html>```
+
+### Tipos de Elementos
+
+- Metadados
+
+  - Trazem informações sobre a página
+
+- Textuais
+
+  - Conteúdo de texto das páginas
+
+- Multimídia
+
+  - Imagens, áudio e vídeo
+
+- Tabelas
+
+  - Estruturar dados em tabelas
+
+- Estrutura
+
+  - Sepaaração e organização do conteúdo
+
+- Formulários
+
+  - Elementos para entrada de dados pelo usuário
+
+- Scripting
+
+  - Conteúdo dinâmico de aplicações Web
+
+- Integração
+
+  - Conteúdo externo ou multimídia avançada
+
+### Tipos de Elementos quanto ao fluxo da página
+
+- Elementos inline
+
+  - Elementos inline são dispostos em linha seguindo o fluxo padrão
+
+Exemplo: ```<img>, <span>, <a>, <button>, <input>, <label>```
+
+- Elementos block
+
+  - São elementos que iniciam uma nova linha não se dispondo a frente daquilo que o precede.
+
+Exemplo: ```<div>, <h1> ... <h6>, <p>, <form>, <canvas>, <table>, <section>```
+
+### Metadados
+
+Os elementos metadados trazem informações sobre a página
+
+- **title**: Define o título da documentação
+
+- **style**: Define códigos de formatação  no padrão CSS
+
+- **link**: Definem ligações com outros arquivos como: CSS, scripts e etc
+
+- **meta**: As meta tags trazem informações sobre o documento tais como codificação de caracteres, descrição, palavras-chave, autor, etc.
+
+```<head>
+	<title>Página de Exemplo</title>
+	<meta name="desciption" content="Puc Minas Web site">
+	<meta name="author" content="Rommel">
+	<meta name="keywords" content="html, web, css">
+	<link rel="stylesheet" href="style.css">
+</head>```
+
+### Open Graph Protocol
+
+O Open Graph Protocol é um protocolo de metadados, que permite com que redes sociais e embeds identifiquem o conteúdo do site.
+
+```<html prefix="pg: https://ogp.me/ns#">
+<head>
+<title>The Rock (1996)</title>
+<meta property="og:title" content="The Rock" />
+<meta property="og:type" content="video.movie" />
+<meta property="og:url content="https://www.imdb.com/title/tt0117500" />
+<meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+...
+</head>
+...
+</html>```
