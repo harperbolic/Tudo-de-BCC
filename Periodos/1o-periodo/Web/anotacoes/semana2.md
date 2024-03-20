@@ -212,3 +212,8 @@ O Open Graph Protocol é um protocolo de metadados, que permite com que redes so
 </head>
 ...
 </html>```
+
+### Elementos de Layout
+
+<header>, <nav>, <main>, <article> e <footer>
+
