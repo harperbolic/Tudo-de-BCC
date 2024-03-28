@@ -1,0 +1,25 @@
+- 3 tipos lógicos de pesquisas
+
+  O que é uma hipótese?
+
+    a hipótese é uma questao 2
+
+
+    Tipos de perguntas
+
+    	  Quantas espécies de aves ocorrem aqui?
+	  	  hipótese: 20 espécies
+		  resultado: 8 espécies
+		  SEGUNDA HIPÓTESE DESNECESSÁRIA
+
+	  Por que esse carro não pega?
+	      	  hipótese: falta combustível
+		  hipótese: bomba quebrada
+		  hipótese: entupimento
+		  hipótese: bateria fraca
+		  HIPÓTESE SOLUCIONA E É FUNDAMENTAL
+
+
+    Algumas pesquisas precisam de hipóteses, e outras não
+
+
